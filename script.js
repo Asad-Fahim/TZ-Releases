@@ -38,7 +38,7 @@ const songs = [
   {
     title: "Mere Hujre Mein Nahi",
     name: "TZ Releases",
-    source: "/home/Rahat Indori Most Famous Ghazal - Mere Hujre Mein Nahi - Hafiz Muhammad Talib - TZ Releases.mp3",
+    source: "/home/Mere hujre.mp3",
     image: "/home/Mere hujre mai.jpg"
   },
   { title: "Madine Ka Safar",
