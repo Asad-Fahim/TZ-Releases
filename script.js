@@ -92,11 +92,6 @@ const songs = [
      source: "/home/Mera Bharat Anokha Hai - Republic Day Special Kalaam - Ye Hindustan Hamara Hai - TZ Releases.mp3",
      image: "/home/Mere Bharat.jpg"
     },
-  { title: "Ramadan Special Collection",
-     name: "TZ Releases", 
-     source: "/home/Beautiful 7 Nasheeds Collection - Ramadan Special Playlist - Hafiz Muhammad Talib - TZ Releases.mp3",
-     image: "/home/Ramazan Special.jpg"
-    },
   { title: "Chai Lovers",
      name: "TZ Releases", 
      source: "/home/Beautiful Duff Nasheed For Chai Lovers - Chai Pee Kitaben Parh - Hafiz Muhammad Talib - TZ Releases.mp3",
