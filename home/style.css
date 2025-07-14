@@ -200,7 +200,7 @@ body {
 
 .swiper-slide {
   position: relative;
-  max-width: 320px; /* 16:9 ratio: width 320px, height 180px */
+  max-width: 320px; 
   aspect-ratio: 16/9;
   border-radius: 10px;
 }
@@ -307,7 +307,6 @@ body {
   background: rgba(163, 162, 164, 0.5) !important;
 }
 
-/* Responsive adjustments for mobile */
 @media (max-width: 480px) {
   .Nasheed-player {
     width: 95%;
