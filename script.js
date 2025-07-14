@@ -99,12 +99,10 @@ const songs = [
      },
 ];
 
-// Store original order
 originalSongs = [...songs];
 
 let currentSongIndex = 3;
 
-// Fisher-Yates shuffle algorithm
 function shuffleArray(array) {
   const newArray = [...array];
   for (let i = newArray.length - 1; i > 0; i--) {
@@ -125,53 +123,41 @@ function updateSwiperSlides() {
     swiperWrapper.appendChild(slide);
   });
   
-  // Update swiper
   swiper.update();
 }
 
 function toggleShuffle() {
   if (!isShuffled) {
-    // Shuffle mode
     const currentSong = songs[currentSongIndex];
     const shuffledSongs = shuffleArray(songs);
     
-    // Update songs array
     songs.length = 0;
     songs.push(...shuffledSongs);
     
-    // Find new index of current song
     currentSongIndex = songs.findIndex(song => song.source === currentSong.source);
     
-    // Update visual feedback
     shuffleButton.style.background = 'rgba(163, 162, 164, 0.8)';
     shuffleButton.style.color = '#4CAF50';
     
     isShuffled = true;
   } else {
-    // Restore original order
     const currentSong = songs[currentSongIndex];
     
-    // Restore original songs array
     songs.length = 0;
     songs.push(...originalSongs);
     
-    // Find new index of current song in original order
     currentSongIndex = songs.findIndex(song => song.source === currentSong.source);
     
-    // Reset visual feedback
     shuffleButton.style.background = 'rgba(163, 162, 164, 0.3)';
     shuffleButton.style.color = 'var(--primary-clr)';
     
     isShuffled = false;
   }
   
-  // Update swiper slides
   updateSwiperSlides();
   
-  // Go to current song
   swiper.slideTo(currentSongIndex);
   
-  // Update song info
   updateSongInfo();
 }
 
