@@ -21,7 +21,7 @@
   {
     title: "Mere Hujre Mein Nahi",
     name: "TZ Releases",
-    source: "/home/lyrics/Rahat Indori Most Famous Ghazal - Mere Hujre Mein Nahi - Hafiz Muhammad Talib - TZ Releases.mp3",
+    source: "/home/lyrics/Mere hujre.mp3",
   },
   {
     title: "Dost ka paigham aa gaya",
