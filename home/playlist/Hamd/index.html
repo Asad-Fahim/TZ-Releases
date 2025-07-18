@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hamd</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600&display=swap" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="album-cover">
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="https://i.ytimg.com/vi/7qNKCrWdp6A/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBLTH1kreyboLat3utM-EKzgK5k4w" alt="" /></div>
+        <div class="swiper-slide"><img src="https://i.ytimg.com/vi/H1VozDDYIEw/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAtdbIlvPRObBqZmJYDp6Bl3JmE6Q" alt="" /></div>
+        <div class="swiper-slide"><img src="https://i.ytimg.com/vi/iIbPjjWxCdk/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD8Y6DzgmYP_oSsSBZXdaXJl33pcA" alt="" /></div>
+        <div class="swiper-slide"><img src="https://i.ytimg.com/vi/MSbP3RJ7GC0/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBGL8t6DtCXSnT7BKGXhJWxrKjQ2w" alt="" /></div>
+        <div class="swiper-slide"><img src="https://i.ytimg.com/vi/gCV4HPTpnVw/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAa6RhE7va4xsMHTskus-MA5aY4xw" alt="" /></div>
+        <div class="swiper-slide"><img src="https://i.ytimg.com/vi/t2eauVcFrGM/hqdefault.jpg?sqp=-oaymwFBCPYBEIoBSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGHIgOyg0MA8=&rs=AOn4CLCLFtnnVLus9DVbhIIP6gz7d-KmNA" alt="" /></div>
+        <div class="swiper-slide"><img src="https://i.ytimg.com/vi/Z6j-8SiZVkY/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC0JPZXpR-1uAfxt6tbjOccjkRnOg" alt="" /></div>
+        <div class="swiper-slide"><img src="https://i.ytimg.com/vi/bZ6LcwdJZls/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLB54geK5dlhccAibJrLZxnuMrTYmg" alt="" /></div>
+        <div class="swiper-slide"><img src="https://i.ytimg.com/vi/nWb-1tABpDI/hqdefault.jpg?sqp=-oaymwFBCPYBEIoBSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGC4gaShyMA8=&rs=AOn4CLA2hhwd5c0VV2azQcdR_xfVGBHqkA" alt="" /></div>
+        <div class="swiper-slide"><img src="https://i.ytimg.com/vi/IH9dpZf2V6o/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCzvDhzYIUkWW6UvX2k523gTFJHTQ" alt="" /></div>
+        <div class="swiper-slide"><img src="https://i.ytimg.com/vi/XNvHYI0kpPQ/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBKmCkXAa1D5tpTVb4LXrE09A3hsQ" alt="" /></div>
+      </div> 
+    </div>
+  </div>
+
+  <div class="Nasheed-player">
+    <h1>Title</h1>
+    <p>Nasheed</p>
+    <audio id="song">
+      <source type="audio/mpeg" />
+    </audio>
+    <input type="range" value="0" id="progress" title="Adjust playback progress" />
+    <div class="controls">
+      <button class="backward" title="Backward">
+        <i class="fa-solid fa-backward"></i>
+      </button>
+      <button class="play-pause-btn" title="Play or Pause">
+        <i class="fa-solid fa-play" id="controlIcon"></i>
+      </button>
+      <button class="forward" title="Forward">
+        <i class="fa-solid fa-forward"></i>
+      </button>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html> 
