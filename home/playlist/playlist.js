@@ -8,6 +8,14 @@ const playlists = [
         URL: "/home/playlist/Allama Iqbal/index.html",
     },
     {
+        id: 2,
+        title: "Naat",
+        thumbnail: "https://i.ytimg.com/vi/FPdulakTBac/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLASjQuHmn4ydXVx-OJeYcDMk91cig",
+        videoCount: 3,
+        creator: "TZ Releases",
+        URL: "/home/playlist/Jigar Series/index.html"
+    },
+    {
         id: 3,
         title: "Junaid Jamshed Covers",
         thumbnail: "https://i.ytimg.com/vi/SDwMmhJqHZ0/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDAKiO9wT6zVgCViocW83bJHODMCA",
