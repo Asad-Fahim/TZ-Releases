@@ -41,10 +41,10 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 3px;
-    background: linear-gradient(45deg, #888888, #cccccc); /* gray gradient */
+    background: linear-gradient(45deg, #888888, #cccccc); 
     padding: 10px 30px;
     border-radius: 10px;
-    box-shadow: 0 8px 32px rgba(136, 136, 136, 0.3); /* gray shadow */
+    box-shadow: 0 8px 32px rgba(136, 136, 136, 0.3); 
 }
 
 .hero-title::after {
@@ -55,7 +55,7 @@ body {
     transform: translateX(-50%);
     width: 80%;
     height: 4px;
-    background: linear-gradient(45deg, #888888, #cccccc); /* gray gradient */
+    background: linear-gradient(45deg, #888888, #cccccc); 
     border-radius: 2px;
 }
 
@@ -65,15 +65,15 @@ body {
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
-    border: 5px solid #cccccc; /* gray border */
+    border: 5px solid #cccccc; 
     margin-bottom: 30px;
-    box-shadow: 0 10px 30px rgba(136, 136, 136, 0.4); /* gray shadow */
+    box-shadow: 0 10px 30px rgba(136, 136, 136, 0.4); 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .profile-picture:hover {
     transform: scale(1.05);
-    box-shadow: 0 15px 40px rgba(136, 136, 136, 0.6); /* gray shadow */
+    box-shadow: 0 15px 40px rgba(136, 136, 136, 0.6);
 }
 
 .hero-quote {
@@ -83,7 +83,7 @@ body {
     font-size: 1.3rem;
     line-height: 1.8;
     opacity: 0.9;
-    color: #cccccc; /* gray text */
+    color: #cccccc;
 }
 
 .hero-name {
@@ -91,7 +91,7 @@ body {
     font-weight: 700;
     letter-spacing: 2px;
     margin-bottom: 10px;
-    background: linear-gradient(45deg, #cccccc, #888888); /* gray gradient */
+    background: linear-gradient(45deg, #cccccc, #888888); 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -101,7 +101,7 @@ body {
     font-size: 1.2rem;
     opacity: 0.8;
     margin-bottom: 30px;
-    color: #cccccc; /* gray text */
+    color: #cccccc; 
 }
 
 .scroll-down {
@@ -114,7 +114,7 @@ body {
     align-items: center;
     cursor: pointer;
     transition: opacity 0.3s ease;
-    color: #cccccc; /* gray */
+    color: #cccccc; 
 }
 
 .scroll-down:hover {
@@ -161,7 +161,7 @@ body {
     text-transform: uppercase;
     display: inline-block;
     position: relative;
-    background: linear-gradient(45deg, #cccccc, #888888); /* gray gradient */
+    background: linear-gradient(45deg, #cccccc, #888888); 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -175,7 +175,7 @@ body {
     transform: translateX(-50%);
     width: 80px;
     height: 4px;
-    background: linear-gradient(45deg, #888888, #cccccc); /* gray gradient */
+    background: linear-gradient(45deg, #888888, #cccccc); 
     border-radius: 2px;
 }
 
@@ -190,7 +190,7 @@ body {
     content: '';
     position: absolute;
     width: 6px;
-    background: linear-gradient(180deg, #cccccc, #888888); /* gray gradient */
+    background: linear-gradient(180deg, #cccccc, #888888); 
     top: 0;
     bottom: 0;
     left: 50%;
@@ -214,16 +214,16 @@ body {
     position: relative;
     width: 45%;
     padding: 20px;
-    background: linear-gradient(135deg, #f0f0f0, #cccccc); /* gray gradient */
+    background: linear-gradient(135deg, #f0f0f0, #cccccc);
     border-radius: 5px;
-    box-shadow: 0 5px 15px rgba(136, 136, 136, 0.1); /* gray shadow */
+    box-shadow: 0 5px 15px rgba(136, 136, 136, 0.1); 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     color: #222;
 }
 
 .roadmap-content:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(136, 136, 136, 0.15); /* gray shadow */
+    box-shadow: 0 10px 25px rgba(136, 136, 136, 0.15); 
 }
 
 .roadmap-item:nth-child(odd) .roadmap-content {
@@ -249,7 +249,7 @@ body {
     font-size: 1.2rem;
     font-weight: 600;
     margin-bottom: 10px;
-    color: #888888; /* gray */
+    color: #888888; 
 }
 
 .roadmap-item::after {
@@ -258,7 +258,7 @@ body {
     width: 20px;
     height: 20px;
     background-color: #fff;
-    border: 4px solid #cccccc; /* gray border */
+    border: 4px solid #cccccc; 
     border-radius: 50%;
     top: 20px;
     left: 50%;
@@ -268,7 +268,7 @@ body {
 }
 
 .roadmap-item:hover::after {
-    background-color: #cccccc; /* gray */
+    background-color: #cccccc; 
 }
 
 .roadmap-status {
@@ -282,17 +282,17 @@ body {
 }
 
 .status-completed {
-    background: linear-gradient(45deg, #bbbbbb, #888888); /* gray gradient */
+    background: linear-gradient(45deg, #bbbbbb, #888888); 
     color: white;
 }
 
 .status-in-progress {
-    background: linear-gradient(45deg, #dddddd, #bbbbbb); /* gray gradient */
+    background: linear-gradient(45deg, #dddddd, #bbbbbb); 
     color: white;
 }
 
 .status-planned {
-    background: linear-gradient(45deg, #cccccc, #888888); /* gray gradient */
+    background: linear-gradient(45deg, #cccccc, #888888);
     color: white;
 }
 
