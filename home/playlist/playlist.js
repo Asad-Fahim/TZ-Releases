@@ -63,7 +63,7 @@ function createPlaylistCard(playlist) {
             <div class="thumbnail-container">
                 <img src="${playlist.thumbnail}" alt="${playlist.title}" class="thumbnail">
                 <div class="playlist-overlay">
-                    <div class="video-count">${playlist.videoCount} videos</div>
+                    <div class="video-count">${playlist.videoCount} Releases</div>
                 </div>
                 <div class="play-button">
                     <svg class="play-icon" viewBox="0 0 24 24">
