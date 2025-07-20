@@ -7,14 +7,14 @@ const playlists = [
         creator: "TZ Releases",
         URL: "/home/playlist/Allama Iqbal/index.html",
     },
-    {
-        id: 2,
-        title: "Naat",
-        thumbnail: "https://i.ytimg.com/vi/FPdulakTBac/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLASjQuHmn4ydXVx-OJeYcDMk91cig",
-        videoCount: 26,
-        creator: "TZ Releases",
-        URL: "/home/playlist/Naat/index.html"
-    },
+    // {
+    //     id: 2,
+    //     title: "Naat",
+    //     thumbnail: "https://i.ytimg.com/vi/FPdulakTBac/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLASjQuHmn4ydXVx-OJeYcDMk91cig",
+    //     videoCount: 26,
+    //     creator: "TZ Releases",
+    //     URL: "/home/playlist/Naat/index.html"
+    // },
     {
         id: 3,
         title: "Junaid Jamshed Covers",
