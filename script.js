@@ -101,7 +101,7 @@ const songs = [
       "/home/lyrics/Mera Bharat Anokha Hai - Republic Day Special Kalaam - Ye Hindustan Hamara Hai - TZ Releases.mp3",
   },
   {
-    title: "Chai Lovers",
+    title: "Chai Pee",
     name: "TZ Releases",
     source:
       "/home/lyrics/Beautiful Duff Nasheed For Chai Lovers - Chai Pee Kitaben Parh - Hafiz Muhammad Talib - TZ Releases.mp3",
