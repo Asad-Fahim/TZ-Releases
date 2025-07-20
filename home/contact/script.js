@@ -1,9 +1,8 @@
-// Email functionality
+
 function sendEmail() {
   const modal = document.getElementById('emailModal');
   modal.style.display = 'block';
   
-  // Focus on first input
   setTimeout(() => {
     document.getElementById('senderName').focus();
   }, 100);
