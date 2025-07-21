@@ -200,9 +200,24 @@ body {
 
 .swiper-slide {
   position: relative;
-  max-width: 320px; /* 16:9 ratio: width 320px, height 180px */
+  max-width: 320px; 
   aspect-ratio: 16/9;
   border-radius: 10px;
+}
+
+.badge {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  background-color: #2c3e50;
+  color: #ffffff;
+  padding: 4px 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  z-index: 5;
 }
 
 .swiper-slide img {
