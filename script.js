@@ -6,6 +6,7 @@ const nextButton = document.querySelector(".controls button.forward");
 const prevButton = document.querySelector(".controls button.backward");
 const songName = document.querySelector(".Nasheed-player h1");
 const artistName = document.querySelector(".Nasheed-player p");
+const badge = document.createElement("span");
 
 const welcomePopup = document.getElementById("welcomePopup");
 const closePopupButton = document.getElementById("closePopup");
@@ -20,6 +21,12 @@ navToggle.addEventListener("click", () => {
 let isPlaying = false;
 
 const songs = [
+  {
+    title: " Wedding Nasheed  ",
+    name: "TZ Releases",
+    source:
+      "/home/lyrics/Wedding Nasheed TZ Releases.wav",
+  },
   {
     title: " Kisi ke Muskurahaton ",
     name: "TZ Releases",
@@ -101,7 +108,14 @@ const songs = [
       "/home/lyrics/Mera Bharat Anokha Hai - Republic Day Special Kalaam - Ye Hindustan Hamara Hai - TZ Releases.mp3",
   },
   {
-    title: "Chai Pee",
+    title: "Ramadan Special Collection",
+    name: "TZ Releases",
+    source:
+      "/home/Beautiful 7 Nasheeds Collection - Ramadan Special Playlist - Hafiz Muhammad Talib - TZ Releases.mp3",
+    image: "/home/lyrics/Ramazan Special.jpg",
+  },
+  {
+    title: "Chai Lovers",
     name: "TZ Releases",
     source:
       "/home/lyrics/Beautiful Duff Nasheed For Chai Lovers - Chai Pee Kitaben Parh - Hafiz Muhammad Talib - TZ Releases.mp3",
@@ -225,3 +239,8 @@ swiper.on("slideChange", () => {
   updateSongInfo();
   pauseSong();
 });
+
+
+badge.className = "badge";
+badge.textContent = "New";
+firstSlide.appendChild(badge);
