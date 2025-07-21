@@ -20,6 +20,16 @@ const songs = [
     name: "TZ Releases",
     source: "/home/lyrics/Waqia Bibi Daee Halima Sadia (RA) _ Hafiz Muhammad Talib _ TZ releases [b-r_feGxdNw].mp3",
   },
+  {
+    title: "Sir Syed Ke Naam",
+    name: "TZ Releases",
+    source: "/home/lyrics/Sir Syed .mp3",
+  },
+  {
+    title: "Wo Koi  To Tha",
+    name: "TZ Releases",
+    source: "/home/lyrics/Wo koi to tha.mp3",
+  },
 ];
 
 let currentSongIndex = 1;
