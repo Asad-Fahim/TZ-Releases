@@ -6,7 +6,6 @@ const nextButton = document.querySelector(".controls button.forward");
 const prevButton = document.querySelector(".controls button.backward");
 const songName = document.querySelector(".Nasheed-player h1");
 const artistName = document.querySelector(".Nasheed-player p");
-const badge = document.createElement("span");
 
 const welcomePopup = document.getElementById("welcomePopup");
 const closePopupButton = document.getElementById("closePopup");
@@ -234,11 +233,6 @@ var swiper = new Swiper(".swiper", {
   },
 });
 
-swiper.on("slideChange", () => {
-  currentSongIndex = swiper.activeIndex;
-  updateSongInfo();
-  pauseSong();
-});
 
 
 badge.className = "badge";
