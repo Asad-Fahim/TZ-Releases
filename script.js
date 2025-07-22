@@ -235,6 +235,3 @@ var swiper = new Swiper(".swiper", {
 
 
 
-badge.className = "badge";
-badge.textContent = "New";
-firstSlide.appendChild(badge);
