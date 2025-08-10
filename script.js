@@ -36,7 +36,7 @@ const songs = [
     title: " Wedding Nasheed  ",
     name: "TZ Releases",
     source:
-      "/home/lyrics/Wedding Nasheed TZ Releases.wav",
+      "/home/lyrics/Wedding Nasheed - Cover by Muhammad Talib - Ala Jabini Sa'adati - With Urdu Subtitles - TZ Releases",
   },
   {
     title: " Kisi ke Muskurahaton ",
@@ -250,5 +250,6 @@ swiper.on("slideChange", () => {
   updateSongInfo();
   pauseSong();
 });
+
 
 
