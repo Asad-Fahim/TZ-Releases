@@ -21,6 +21,12 @@ let isPlaying = false;
 
 const songs = [
   {
+    title: " Ek Khwaab ",
+    name: "TZ Releases",
+    source:
+      "/home/lyrics/EK KHWAAB - This Nazam Will Definitely Move You To Tears - Hafiz Muhammad Talib - TZ Releases.mp3",
+  },
+  {
     title: " Faslon Ko Takalluf  ",
     name: "TZ Releases",
     source:
@@ -244,4 +250,5 @@ swiper.on("slideChange", () => {
   updateSongInfo();
   pauseSong();
 });
+
 
